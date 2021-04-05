@@ -1,0 +1,14 @@
+package com.cybertek.tests.day2_webdriver_basics;
+
+import com.cybertek.Utilities.WebDriverFactory;
+import org.openqa.selenium.WebDriver;
+
+public class CallWebDriverFactory {
+
+    public static void main(String[] args) {
+        WebDriver driver = WebDriverFactory.getDriver("firefox");
+
+        driver.get("http://www.google.com");
+
+    }
+}
