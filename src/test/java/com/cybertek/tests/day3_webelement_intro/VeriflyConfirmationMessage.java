@@ -72,7 +72,6 @@ public class VeriflyConfirmationMessage {
                 }
                 //close the browser
                 driver.quit();
-
                 }
                 
     }
