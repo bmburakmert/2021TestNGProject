@@ -17,7 +17,6 @@ public class getUrlAndTitle {
 
         String title = driver.getTitle();
 
-
         //soutv shortcuts
         System.out.println("title = " + title);
 
@@ -31,5 +30,7 @@ public class getUrlAndTitle {
         System.out.println("pageSourse = " + pageSourse);
 
     }
+
+
 }
 

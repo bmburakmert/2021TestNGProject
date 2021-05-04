@@ -12,7 +12,7 @@ public class basic_navigation {
         //WebDriverManager.firefoxdriver().setup();
 
         // creating object for using selenium driver
-        WebDriver driver= new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
 
         //open browser
         driver.get("http://amazon.com");
@@ -20,5 +20,7 @@ public class basic_navigation {
         //driver.navigate().to("http://amazon.com");
 
         System.out.println(driver.getTitle());
+        driver.close();
     }
+
 }
