@@ -38,5 +38,18 @@ public class  VerifyURLnotchanged {
         }
         //close the browser
         driver.quit();
+
+        String a ="aaa";
+        String b = "aaa";
+
+        a.toUpperCase();
+        System.out.println(a);
+
+        if (a.equals(b)){
+            System.out.println("hacilar esit");
+        }else{
+            System.out.println("hadiii");
+        }
+
     }
 }

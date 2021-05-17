@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class VeriflyURLchanged {
+public class VerifyURLchanged {
     //**
     // open browser
     //go to http://practice.cybertekschool.com/forgot_passwordLinks to an external site.
